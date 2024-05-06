@@ -17,7 +17,6 @@ createNote.addEventListener("click", function () {
   let notespara = document.createElement("p");
   notespara.classList = "input-box";
   notespara.setAttribute("contenteditable", "true");
-  notespara.setAttribute("draggable", "true")
   // create img
   let deleteImg = document.createElement("img");
   deleteImg.src = "delete.png";
