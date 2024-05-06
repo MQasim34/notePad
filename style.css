@@ -72,3 +72,10 @@ button {
     width: 25px;
     cursor: pointer;
 }
+
+
+@media all and (max-width:767px){
+  .noteContainer p{
+    width: 100%;
+  }
+}
