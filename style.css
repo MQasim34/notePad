@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 body {
@@ -14,7 +14,7 @@ body {
   max-width: 1140px;
   width: 100%;
   margin: auto;
-  padding: 0 10px;
+  padding: 0 10px 22px 10px;
 }
 .notepadtitle {
   display: flex;
@@ -61,21 +61,23 @@ button {
   overflow: auto;
   background-color: #fff;
   padding: 10px;
-  outline: none ;
+  outline: none;
   position: relative;
   border-radius: 10px;
 }
-.deleteIcon{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 25px;
-    cursor: pointer;
+.deleteIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 25px;
+  cursor: pointer;
 }
 
-
-@media all and (max-width:767px){
-  .noteContainer p{
+@media all and (max-width: 767px) {
+  .container{
+    padding: 0 20px 20px;
+  }
+  .noteContainer p {
     width: 100%;
   }
 }
